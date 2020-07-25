@@ -21,9 +21,20 @@ type CSGO struct {
 
 // Creates a new CSGO instance and registers it as a packet handler
 func New(client *steam.Client) *CSGO {
-	t := &CSGO{client}
-	client.GC.RegisterPacketHandler(t)
-	return t
+	c := &CSGO{client, false}
+	client.GC.RegisterPacketHandler(c)
+	go c.handler()
+
+	return c
+}
+
+func (c *CSGO) handler()  {
+	for event := range c.client.Events() {
+		switch e := event.(type) {
+		case *steam.DisconnectedEvent:
+			c.isConnected = false
+		}
+	}
 }
 
 func (c *CSGO) IsInCSGO() bool {
@@ -37,6 +48,8 @@ func (c *CSGO) SetPlaying(playing bool) {
 	} else {
 		c.client.GC.SetGamesPlayed()
 	}
+
+	c.client.Disconnect()
 }
 
 func (c *CSGO) sendHello() {
@@ -54,7 +67,7 @@ func (c *CSGO) RequestItemData(s, a, d, m uint64) {
 
 type GCReadyEvent struct{}
 
-type GCItemData struct {
+type GCItemDataEvent struct {
 	ItemInfo *protobuf.CEconItemPreviewDataBlock `json:"iteminfo"`
 }
 
@@ -68,8 +81,8 @@ func (c *CSGO) HandleGCPacket(packet *GCPacket) {
 		c.isConnected = true
 		c.client.Emit(&GCReadyEvent{})
 	case protobuf.EGCBaseClientMsg(protobuf.ECsgoGCMsg_k_EMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse):
-		itemInfo := new(protobuf.CEconItemPreviewDataBlock)
+		itemInfo := &protobuf.CEconItemPreviewDataBlock{}
 		packet.ReadProtoMsg(itemInfo)
-		c.client.Emit(&GCItemData{ItemInfo: itemInfo})
+		c.client.Emit(&GCItemDataEvent{ItemInfo: itemInfo})
 	}
 }
