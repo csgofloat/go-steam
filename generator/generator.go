@@ -48,6 +48,7 @@ func clean() {
 	cleanGlob("../protocol/**/*.pb.go")
 	cleanGlob("../tf2/protocol/**/*.pb.go")
 	cleanGlob("../dota/protocol/**/*.pb.go")
+	cleanGlob("../csgo/protocol/**/*.pb.go")
 
 	os.Remove("../protocol/steamlang/enums.go")
 	os.Remove("../protocol/steamlang/messages.go")
@@ -75,6 +76,7 @@ func buildProto() {
 	buildProtoMap("steam", clientProtoFiles, "../protocol/protobuf")
 	buildProtoMap("tf2", tf2ProtoFiles, "../tf2/protocol/protobuf")
 	buildProtoMap("dota2", dotaProtoFiles, "../dota/protocol/protobuf")
+	buildProtoMap("csgo", csgoProtoFiles, "../csgo/protocol/protobuf")
 }
 
 func buildProtoMap(srcSubdir string, files map[string]string, outDir string) {
@@ -126,6 +128,15 @@ var dotaProtoFiles = map[string]string{
 	"econ_gcmessages.proto":  "econ.pb.go",
 	"gcsdk_gcmessages.proto": "gcsdk.pb.go",
 	"gcsystemmsgs.proto":     "system.pb.go",
+}
+
+var csgoProtoFiles = map[string]string{
+	"base_gcmessages.proto":        "base.pb.go",
+	"econ_gcmessages.proto":        "econ.pb.go",
+	"cstrike15_gcmessages.proto":   "cstrike15_gc.pb.go",
+	"cstrike15_usermessages.proto": "cstrike15_user.pb.go",
+	"gcsdk_gcmessages.proto":       "gcsdk.pb.go",
+	"gcsystemmsgs.proto":           "system.pb.go",
 }
 
 func compileProto(srcBase, srcSubdir, proto, target string) {
