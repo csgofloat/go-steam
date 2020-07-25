@@ -326,10 +326,8 @@ type CDeviceAuth_AuthorizeRemoteDevice_Request struct {
 func (m *CDeviceAuth_AuthorizeRemoteDevice_Request) Reset() {
 	*m = CDeviceAuth_AuthorizeRemoteDevice_Request{}
 }
-func (m *CDeviceAuth_AuthorizeRemoteDevice_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CDeviceAuth_AuthorizeRemoteDevice_Request) ProtoMessage() {}
+func (m *CDeviceAuth_AuthorizeRemoteDevice_Request) String() string { return proto.CompactTextString(m) }
+func (*CDeviceAuth_AuthorizeRemoteDevice_Request) ProtoMessage()    {}
 func (*CDeviceAuth_AuthorizeRemoteDevice_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_ae200bdec1a460f6, []int{4}
 }

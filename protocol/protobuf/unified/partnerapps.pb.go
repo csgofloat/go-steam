@@ -537,10 +537,8 @@ type CPartnerApps_GetDepotBuildResult_Response struct {
 func (m *CPartnerApps_GetDepotBuildResult_Response) Reset() {
 	*m = CPartnerApps_GetDepotBuildResult_Response{}
 }
-func (m *CPartnerApps_GetDepotBuildResult_Response) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CPartnerApps_GetDepotBuildResult_Response) ProtoMessage() {}
+func (m *CPartnerApps_GetDepotBuildResult_Response) String() string { return proto.CompactTextString(m) }
+func (*CPartnerApps_GetDepotBuildResult_Response) ProtoMessage()    {}
 func (*CPartnerApps_GetDepotBuildResult_Response) Descriptor() ([]byte, []int) {
 	return fileDescriptor_18861c697d22f598, []int{10}
 }

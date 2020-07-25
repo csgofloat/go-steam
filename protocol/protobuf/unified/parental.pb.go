@@ -276,10 +276,8 @@ type CParental_EnableParentalSettings_Response struct {
 func (m *CParental_EnableParentalSettings_Response) Reset() {
 	*m = CParental_EnableParentalSettings_Response{}
 }
-func (m *CParental_EnableParentalSettings_Response) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CParental_EnableParentalSettings_Response) ProtoMessage() {}
+func (m *CParental_EnableParentalSettings_Response) String() string { return proto.CompactTextString(m) }
+func (*CParental_EnableParentalSettings_Response) ProtoMessage()    {}
 func (*CParental_EnableParentalSettings_Response) Descriptor() ([]byte, []int) {
 	return fileDescriptor_16081bf1f772237a, []int{3}
 }
@@ -313,10 +311,8 @@ type CParental_DisableParentalSettings_Request struct {
 func (m *CParental_DisableParentalSettings_Request) Reset() {
 	*m = CParental_DisableParentalSettings_Request{}
 }
-func (m *CParental_DisableParentalSettings_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CParental_DisableParentalSettings_Request) ProtoMessage() {}
+func (m *CParental_DisableParentalSettings_Request) String() string { return proto.CompactTextString(m) }
+func (*CParental_DisableParentalSettings_Request) ProtoMessage()    {}
 func (*CParental_DisableParentalSettings_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_16081bf1f772237a, []int{4}
 }
@@ -975,10 +971,8 @@ type CParental_DisableWithRecoveryCode_Request struct {
 func (m *CParental_DisableWithRecoveryCode_Request) Reset() {
 	*m = CParental_DisableWithRecoveryCode_Request{}
 }
-func (m *CParental_DisableWithRecoveryCode_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CParental_DisableWithRecoveryCode_Request) ProtoMessage() {}
+func (m *CParental_DisableWithRecoveryCode_Request) String() string { return proto.CompactTextString(m) }
+func (*CParental_DisableWithRecoveryCode_Request) ProtoMessage()    {}
 func (*CParental_DisableWithRecoveryCode_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_16081bf1f772237a, []int{20}
 }

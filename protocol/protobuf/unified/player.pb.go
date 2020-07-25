@@ -834,10 +834,8 @@ type CPlayer_GetGameBadgeLevels_Response_Badge struct {
 func (m *CPlayer_GetGameBadgeLevels_Response_Badge) Reset() {
 	*m = CPlayer_GetGameBadgeLevels_Response_Badge{}
 }
-func (m *CPlayer_GetGameBadgeLevels_Response_Badge) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CPlayer_GetGameBadgeLevels_Response_Badge) ProtoMessage() {}
+func (m *CPlayer_GetGameBadgeLevels_Response_Badge) String() string { return proto.CompactTextString(m) }
+func (*CPlayer_GetGameBadgeLevels_Response_Badge) ProtoMessage()    {}
 func (*CPlayer_GetGameBadgeLevels_Response_Badge) Descriptor() ([]byte, []int) {
 	return fileDescriptor_2b474a6cd0239a66, []int{8, 0}
 }
@@ -965,10 +963,8 @@ type CPlayer_GetEmoticonList_Response_Emoticon struct {
 func (m *CPlayer_GetEmoticonList_Response_Emoticon) Reset() {
 	*m = CPlayer_GetEmoticonList_Response_Emoticon{}
 }
-func (m *CPlayer_GetEmoticonList_Response_Emoticon) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CPlayer_GetEmoticonList_Response_Emoticon) ProtoMessage() {}
+func (m *CPlayer_GetEmoticonList_Response_Emoticon) String() string { return proto.CompactTextString(m) }
+func (*CPlayer_GetEmoticonList_Response_Emoticon) ProtoMessage()    {}
 func (*CPlayer_GetEmoticonList_Response_Emoticon) Descriptor() ([]byte, []int) {
 	return fileDescriptor_2b474a6cd0239a66, []int{10, 0}
 }

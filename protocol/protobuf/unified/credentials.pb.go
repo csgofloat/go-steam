@@ -135,10 +135,8 @@ type CCredentials_GetSteamGuardDetails_Request struct {
 func (m *CCredentials_GetSteamGuardDetails_Request) Reset() {
 	*m = CCredentials_GetSteamGuardDetails_Request{}
 }
-func (m *CCredentials_GetSteamGuardDetails_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CCredentials_GetSteamGuardDetails_Request) ProtoMessage() {}
+func (m *CCredentials_GetSteamGuardDetails_Request) String() string { return proto.CompactTextString(m) }
+func (*CCredentials_GetSteamGuardDetails_Request) ProtoMessage()    {}
 func (*CCredentials_GetSteamGuardDetails_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_50e19d183434a0ff, []int{2}
 }
@@ -600,10 +598,8 @@ type CCredentials_ValidateEmailAddress_Request struct {
 func (m *CCredentials_ValidateEmailAddress_Request) Reset() {
 	*m = CCredentials_ValidateEmailAddress_Request{}
 }
-func (m *CCredentials_ValidateEmailAddress_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CCredentials_ValidateEmailAddress_Request) ProtoMessage() {}
+func (m *CCredentials_ValidateEmailAddress_Request) String() string { return proto.CompactTextString(m) }
+func (*CCredentials_ValidateEmailAddress_Request) ProtoMessage()    {}
 func (*CCredentials_ValidateEmailAddress_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_50e19d183434a0ff, []int{6}
 }
@@ -945,10 +941,8 @@ type CCredentials_GetAccountAuthSecret_Request struct {
 func (m *CCredentials_GetAccountAuthSecret_Request) Reset() {
 	*m = CCredentials_GetAccountAuthSecret_Request{}
 }
-func (m *CCredentials_GetAccountAuthSecret_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CCredentials_GetAccountAuthSecret_Request) ProtoMessage() {}
+func (m *CCredentials_GetAccountAuthSecret_Request) String() string { return proto.CompactTextString(m) }
+func (*CCredentials_GetAccountAuthSecret_Request) ProtoMessage()    {}
 func (*CCredentials_GetAccountAuthSecret_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_50e19d183434a0ff, []int{12}
 }

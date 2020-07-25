@@ -7126,10 +7126,8 @@ type CMsgClientSetClientAppUpdateStateResponse struct {
 func (m *CMsgClientSetClientAppUpdateStateResponse) Reset() {
 	*m = CMsgClientSetClientAppUpdateStateResponse{}
 }
-func (m *CMsgClientSetClientAppUpdateStateResponse) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgClientSetClientAppUpdateStateResponse) ProtoMessage() {}
+func (m *CMsgClientSetClientAppUpdateStateResponse) String() string { return proto.CompactTextString(m) }
+func (*CMsgClientSetClientAppUpdateStateResponse) ProtoMessage()    {}
 func (*CMsgClientSetClientAppUpdateStateResponse) Descriptor() ([]byte, []int) {
 	return fileDescriptor_97f09b42bb99641f, []int{84}
 }
@@ -9582,10 +9580,8 @@ type CMsgClientPICSProductInfoResponse_AppInfo struct {
 func (m *CMsgClientPICSProductInfoResponse_AppInfo) Reset() {
 	*m = CMsgClientPICSProductInfoResponse_AppInfo{}
 }
-func (m *CMsgClientPICSProductInfoResponse_AppInfo) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgClientPICSProductInfoResponse_AppInfo) ProtoMessage() {}
+func (m *CMsgClientPICSProductInfoResponse_AppInfo) String() string { return proto.CompactTextString(m) }
+func (*CMsgClientPICSProductInfoResponse_AppInfo) ProtoMessage()    {}
 func (*CMsgClientPICSProductInfoResponse_AppInfo) Descriptor() ([]byte, []int) {
 	return fileDescriptor_97f09b42bb99641f, []int{112, 0}
 }
@@ -10529,10 +10525,8 @@ type CMsgClientAMGetPersonaNameHistoryResponse struct {
 func (m *CMsgClientAMGetPersonaNameHistoryResponse) Reset() {
 	*m = CMsgClientAMGetPersonaNameHistoryResponse{}
 }
-func (m *CMsgClientAMGetPersonaNameHistoryResponse) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgClientAMGetPersonaNameHistoryResponse) ProtoMessage() {}
+func (m *CMsgClientAMGetPersonaNameHistoryResponse) String() string { return proto.CompactTextString(m) }
+func (*CMsgClientAMGetPersonaNameHistoryResponse) ProtoMessage()    {}
 func (*CMsgClientAMGetPersonaNameHistoryResponse) Descriptor() ([]byte, []int) {
 	return fileDescriptor_97f09b42bb99641f, []int{124}
 }

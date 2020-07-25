@@ -2302,10 +2302,8 @@ type CPublishedFile_GetUserFiles_Request_KVTag struct {
 func (m *CPublishedFile_GetUserFiles_Request_KVTag) Reset() {
 	*m = CPublishedFile_GetUserFiles_Request_KVTag{}
 }
-func (m *CPublishedFile_GetUserFiles_Request_KVTag) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CPublishedFile_GetUserFiles_Request_KVTag) ProtoMessage() {}
+func (m *CPublishedFile_GetUserFiles_Request_KVTag) String() string { return proto.CompactTextString(m) }
+func (*CPublishedFile_GetUserFiles_Request_KVTag) ProtoMessage()    {}
 func (*CPublishedFile_GetUserFiles_Request_KVTag) Descriptor() ([]byte, []int) {
 	return fileDescriptor_bb56ea57a5e2aeda, []int{13, 0}
 }
@@ -3133,10 +3131,8 @@ type CPublishedFile_RefreshVotingQueue_Request struct {
 func (m *CPublishedFile_RefreshVotingQueue_Request) Reset() {
 	*m = CPublishedFile_RefreshVotingQueue_Request{}
 }
-func (m *CPublishedFile_RefreshVotingQueue_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CPublishedFile_RefreshVotingQueue_Request) ProtoMessage() {}
+func (m *CPublishedFile_RefreshVotingQueue_Request) String() string { return proto.CompactTextString(m) }
+func (*CPublishedFile_RefreshVotingQueue_Request) ProtoMessage()    {}
 func (*CPublishedFile_RefreshVotingQueue_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_bb56ea57a5e2aeda, []int{23}
 }
@@ -3715,10 +3711,8 @@ type CPublishedFile_AddAppRelationship_Request struct {
 func (m *CPublishedFile_AddAppRelationship_Request) Reset() {
 	*m = CPublishedFile_AddAppRelationship_Request{}
 }
-func (m *CPublishedFile_AddAppRelationship_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CPublishedFile_AddAppRelationship_Request) ProtoMessage() {}
+func (m *CPublishedFile_AddAppRelationship_Request) String() string { return proto.CompactTextString(m) }
+func (*CPublishedFile_AddAppRelationship_Request) ProtoMessage()    {}
 func (*CPublishedFile_AddAppRelationship_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_bb56ea57a5e2aeda, []int{27}
 }
@@ -4581,10 +4575,8 @@ type CPublishedFile_GetUserVoteSummary_Request struct {
 func (m *CPublishedFile_GetUserVoteSummary_Request) Reset() {
 	*m = CPublishedFile_GetUserVoteSummary_Request{}
 }
-func (m *CPublishedFile_GetUserVoteSummary_Request) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CPublishedFile_GetUserVoteSummary_Request) ProtoMessage() {}
+func (m *CPublishedFile_GetUserVoteSummary_Request) String() string { return proto.CompactTextString(m) }
+func (*CPublishedFile_GetUserVoteSummary_Request) ProtoMessage()    {}
 func (*CPublishedFile_GetUserVoteSummary_Request) Descriptor() ([]byte, []int) {
 	return fileDescriptor_bb56ea57a5e2aeda, []int{45}
 }

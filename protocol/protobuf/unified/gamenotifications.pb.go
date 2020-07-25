@@ -268,10 +268,8 @@ type CGameNotifications_CreateSession_Response struct {
 func (m *CGameNotifications_CreateSession_Response) Reset() {
 	*m = CGameNotifications_CreateSession_Response{}
 }
-func (m *CGameNotifications_CreateSession_Response) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CGameNotifications_CreateSession_Response) ProtoMessage() {}
+func (m *CGameNotifications_CreateSession_Response) String() string { return proto.CompactTextString(m) }
+func (*CGameNotifications_CreateSession_Response) ProtoMessage()    {}
 func (*CGameNotifications_CreateSession_Response) Descriptor() ([]byte, []int) {
 	return fileDescriptor_d73f3ce78278ce26, []int{4}
 }
@@ -367,10 +365,8 @@ type CGameNotifications_DeleteSession_Response struct {
 func (m *CGameNotifications_DeleteSession_Response) Reset() {
 	*m = CGameNotifications_DeleteSession_Response{}
 }
-func (m *CGameNotifications_DeleteSession_Response) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CGameNotifications_DeleteSession_Response) ProtoMessage() {}
+func (m *CGameNotifications_DeleteSession_Response) String() string { return proto.CompactTextString(m) }
+func (*CGameNotifications_DeleteSession_Response) ProtoMessage()    {}
 func (*CGameNotifications_DeleteSession_Response) Descriptor() ([]byte, []int) {
 	return fileDescriptor_d73f3ce78278ce26, []int{6}
 }
@@ -475,10 +471,8 @@ type CGameNotifications_UpdateSession_Response struct {
 func (m *CGameNotifications_UpdateSession_Response) Reset() {
 	*m = CGameNotifications_UpdateSession_Response{}
 }
-func (m *CGameNotifications_UpdateSession_Response) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CGameNotifications_UpdateSession_Response) ProtoMessage() {}
+func (m *CGameNotifications_UpdateSession_Response) String() string { return proto.CompactTextString(m) }
+func (*CGameNotifications_UpdateSession_Response) ProtoMessage()    {}
 func (*CGameNotifications_UpdateSession_Response) Descriptor() ([]byte, []int) {
 	return fileDescriptor_d73f3ce78278ce26, []int{8}
 }

@@ -1254,10 +1254,8 @@ type CMsgClientUCMEnumerateUserSubscribedFiles struct {
 func (m *CMsgClientUCMEnumerateUserSubscribedFiles) Reset() {
 	*m = CMsgClientUCMEnumerateUserSubscribedFiles{}
 }
-func (m *CMsgClientUCMEnumerateUserSubscribedFiles) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgClientUCMEnumerateUserSubscribedFiles) ProtoMessage() {}
+func (m *CMsgClientUCMEnumerateUserSubscribedFiles) String() string { return proto.CompactTextString(m) }
+func (*CMsgClientUCMEnumerateUserSubscribedFiles) ProtoMessage()    {}
 func (*CMsgClientUCMEnumerateUserSubscribedFiles) Descriptor() ([]byte, []int) {
 	return fileDescriptor_dab52857974b135d, []int{12}
 }
@@ -7815,10 +7813,8 @@ type CMsgClientFSGetFriendsSteamLevelsResponse struct {
 func (m *CMsgClientFSGetFriendsSteamLevelsResponse) Reset() {
 	*m = CMsgClientFSGetFriendsSteamLevelsResponse{}
 }
-func (m *CMsgClientFSGetFriendsSteamLevelsResponse) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgClientFSGetFriendsSteamLevelsResponse) ProtoMessage() {}
+func (m *CMsgClientFSGetFriendsSteamLevelsResponse) String() string { return proto.CompactTextString(m) }
+func (*CMsgClientFSGetFriendsSteamLevelsResponse) ProtoMessage()    {}
 func (*CMsgClientFSGetFriendsSteamLevelsResponse) Descriptor() ([]byte, []int) {
 	return fileDescriptor_dab52857974b135d, []int{102}
 }
@@ -10873,9 +10869,7 @@ func init() {
 	proto.RegisterType((*CMsgBadgeCraftedNotification)(nil), "CMsgBadgeCraftedNotification")
 }
 
-func init() {
-	proto.RegisterFile("steammessages_clientserver_2.proto", fileDescriptor_dab52857974b135d)
-}
+func init() { proto.RegisterFile("steammessages_clientserver_2.proto", fileDescriptor_dab52857974b135d) }
 
 var fileDescriptor_dab52857974b135d = []byte{
 	// 9088 bytes of a gzipped FileDescriptorProto

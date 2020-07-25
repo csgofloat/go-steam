@@ -932,10 +932,8 @@ type CMsgRequestItemPurgatory_FinalizePurchase struct {
 func (m *CMsgRequestItemPurgatory_FinalizePurchase) Reset() {
 	*m = CMsgRequestItemPurgatory_FinalizePurchase{}
 }
-func (m *CMsgRequestItemPurgatory_FinalizePurchase) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgRequestItemPurgatory_FinalizePurchase) ProtoMessage() {}
+func (m *CMsgRequestItemPurgatory_FinalizePurchase) String() string { return proto.CompactTextString(m) }
+func (*CMsgRequestItemPurgatory_FinalizePurchase) ProtoMessage()    {}
 func (*CMsgRequestItemPurgatory_FinalizePurchase) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{2}
 }
@@ -1244,10 +1242,8 @@ type CMsgGCRequestStoreSalesDataResponse_Price struct {
 func (m *CMsgGCRequestStoreSalesDataResponse_Price) Reset() {
 	*m = CMsgGCRequestStoreSalesDataResponse_Price{}
 }
-func (m *CMsgGCRequestStoreSalesDataResponse_Price) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgGCRequestStoreSalesDataResponse_Price) ProtoMessage() {}
+func (m *CMsgGCRequestStoreSalesDataResponse_Price) String() string { return proto.CompactTextString(m) }
+func (*CMsgGCRequestStoreSalesDataResponse_Price) ProtoMessage()    {}
 func (*CMsgGCRequestStoreSalesDataResponse_Price) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{8, 0}
 }

@@ -1497,10 +1497,8 @@ type CMsgRequestItemPurgatory_FinalizePurchase struct {
 func (m *CMsgRequestItemPurgatory_FinalizePurchase) Reset() {
 	*m = CMsgRequestItemPurgatory_FinalizePurchase{}
 }
-func (m *CMsgRequestItemPurgatory_FinalizePurchase) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgRequestItemPurgatory_FinalizePurchase) ProtoMessage() {}
+func (m *CMsgRequestItemPurgatory_FinalizePurchase) String() string { return proto.CompactTextString(m) }
+func (*CMsgRequestItemPurgatory_FinalizePurchase) ProtoMessage()    {}
 func (*CMsgRequestItemPurgatory_FinalizePurchase) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{3}
 }
@@ -1817,10 +1815,8 @@ type CMsgGCRequestStoreSalesDataResponse_Price struct {
 func (m *CMsgGCRequestStoreSalesDataResponse_Price) Reset() {
 	*m = CMsgGCRequestStoreSalesDataResponse_Price{}
 }
-func (m *CMsgGCRequestStoreSalesDataResponse_Price) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgGCRequestStoreSalesDataResponse_Price) ProtoMessage() {}
+func (m *CMsgGCRequestStoreSalesDataResponse_Price) String() string { return proto.CompactTextString(m) }
+func (*CMsgGCRequestStoreSalesDataResponse_Price) ProtoMessage()    {}
 func (*CMsgGCRequestStoreSalesDataResponse_Price) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{9, 0}
 }
@@ -2809,10 +2805,8 @@ type CMsgGCToGCCheckAccountTradeStatusResponse struct {
 func (m *CMsgGCToGCCheckAccountTradeStatusResponse) Reset() {
 	*m = CMsgGCToGCCheckAccountTradeStatusResponse{}
 }
-func (m *CMsgGCToGCCheckAccountTradeStatusResponse) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgGCToGCCheckAccountTradeStatusResponse) ProtoMessage() {}
+func (m *CMsgGCToGCCheckAccountTradeStatusResponse) String() string { return proto.CompactTextString(m) }
+func (*CMsgGCToGCCheckAccountTradeStatusResponse) ProtoMessage()    {}
 func (*CMsgGCToGCCheckAccountTradeStatusResponse) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{28}
 }
@@ -3627,10 +3621,8 @@ type CMsgGCEconSQLWorkItemEmbeddedRollbackData struct {
 func (m *CMsgGCEconSQLWorkItemEmbeddedRollbackData) Reset() {
 	*m = CMsgGCEconSQLWorkItemEmbeddedRollbackData{}
 }
-func (m *CMsgGCEconSQLWorkItemEmbeddedRollbackData) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgGCEconSQLWorkItemEmbeddedRollbackData) ProtoMessage() {}
+func (m *CMsgGCEconSQLWorkItemEmbeddedRollbackData) String() string { return proto.CompactTextString(m) }
+func (*CMsgGCEconSQLWorkItemEmbeddedRollbackData) ProtoMessage()    {}
 func (*CMsgGCEconSQLWorkItemEmbeddedRollbackData) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{40}
 }
@@ -5204,10 +5196,8 @@ type CMsgClientToGCRemoveItemAttributeResponse struct {
 func (m *CMsgClientToGCRemoveItemAttributeResponse) Reset() {
 	*m = CMsgClientToGCRemoveItemAttributeResponse{}
 }
-func (m *CMsgClientToGCRemoveItemAttributeResponse) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CMsgClientToGCRemoveItemAttributeResponse) ProtoMessage() {}
+func (m *CMsgClientToGCRemoveItemAttributeResponse) String() string { return proto.CompactTextString(m) }
+func (*CMsgClientToGCRemoveItemAttributeResponse) ProtoMessage()    {}
 func (*CMsgClientToGCRemoveItemAttributeResponse) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{69}
 }
@@ -6355,10 +6345,8 @@ type CWorkshop_GetPackageDailyRevenue_Response struct {
 func (m *CWorkshop_GetPackageDailyRevenue_Response) Reset() {
 	*m = CWorkshop_GetPackageDailyRevenue_Response{}
 }
-func (m *CWorkshop_GetPackageDailyRevenue_Response) String() string {
-	return proto.CompactTextString(m)
-}
-func (*CWorkshop_GetPackageDailyRevenue_Response) ProtoMessage() {}
+func (m *CWorkshop_GetPackageDailyRevenue_Response) String() string { return proto.CompactTextString(m) }
+func (*CWorkshop_GetPackageDailyRevenue_Response) ProtoMessage()    {}
 func (*CWorkshop_GetPackageDailyRevenue_Response) Descriptor() ([]byte, []int) {
 	return fileDescriptor_123d8ffb2ecfd02d, []int{88}
 }
